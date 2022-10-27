@@ -1,0 +1,108 @@
+body{
+  background:#EEEEEE;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.titulo{
+  box-shadow: 0 0 12px 1px gray;
+  text-align: center;
+}
+.tab{
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin-left: 10% !important;
+}
+.titulo2{
+  text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEEE;
+}
+
+.login{
+  width: 360px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login h1{
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.login form{
+  font-size: 20px;
+
+}
+
+.login form .form-group{
+  margin-bottom: 12px;
+}
+
+.login form input[type="submit"]{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.botones{
+  margin: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+.bta
+{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.titulodash{
+  box-shadow: 0 0 12px 1px gray;
+  text-align: center;
+}
+.tituloInser{
+  box-shadow: 0 0 12px 1px gray;
+  text-align: center;
+}
+.formulario{
+  height: 50vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background: #EEEE;
+}
+.ordenar{
+  display: flex;
+  flex-flow: row-reverse;
+  align-content:space-around;
+  justify-content:center;
+  /* background: #EEEE; */
+}
+.Eliminar{
+  border: none;
+  background: #FF4600;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
+.bta1{
+display: flex;
+margin-top: auto;
+margin-top: -40px;
+margin-left: 10px;
+
+}
